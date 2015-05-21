@@ -1,0 +1,23 @@
+{
+  "name": "node-bullhorn",
+  "version": "v0.0.1",
+  "description": "Bullhorn API client library for node.js",
+  "keywords": ["bullhorn"],
+  "homepage": "https://github.com/jpagand/node-bullhorn",
+  "author": "Jordan ePagand",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpagand/node-bullhorn"
+  },
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "jshint test/*.js lib/*.js && echo Lint passed."
+  },
+  "dependencies": {
+    "deep-extend": "^0.4.0",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+  },
+  "main": "./lib/bullhorn"
+}
