@@ -22,5 +22,5 @@
     "lodash": "latest"
   },
   "devDependencies": {},
-  "main": "./lib/bullhorn"
+  "main": "./lib/bullhorn.js"
 }
